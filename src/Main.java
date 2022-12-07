@@ -63,6 +63,33 @@ public class Main {
         System.out.println( "Вес спорт-завтрака равен " + allKg + "килограмм");
 
         //Задача 7
+        int needKg = 7 * 1000;
+        int firstDiet = needKg / 250;
+        int secondDiet = needKg / 500;
+        System.out.println( "Если спортсмен будет терять по 250 грамм в день, то потребуется " + firstDiet + " дней для сброса веса.");
+        System.out.println( "Если спортсмен будет терять по 500 грамм в день, то потребуется " + secondDiet + " дней для сброса веса.");
+        int average =  (firstDiet + secondDiet) / 2 ;
+        System.out.println( "В среднем потребуется " + average + " дней для сброса веса");
+
+        //Задача 8
+        long mashaSalary = 67760;
+        long denisSalary = 83690;
+        long kristinaSalary = 76230;
+        long mashaSalaryNew = mashaSalary + (mashaSalary / 10);
+        long mashaSalaryYear = mashaSalaryNew * 12 - mashaSalary * 12;
+        long denisSalaryNew = denisSalary + (denisSalary / 10);
+        long denisSalaryYear = denisSalaryNew * 12 - denisSalary * 12;
+        long kristinaSalaryNew = kristinaSalary + (kristinaSalary / 10);
+        long kristinaSalaryYear = kristinaSalaryNew * 12 - kristinaSalary *12;
+
+
+        System.out.println( "Маша теперь получает " + mashaSalaryNew + " рублей. Годовой доход вырос на " + mashaSalaryYear + " рублей");
+        System.out.println( "Денис теперь получает " + denisSalaryNew + " рублей. Годовой доход вырос на " + denisSalaryYear + " рублей");
+        System.out.println( "Кристина теперь получает " + kristinaSalaryNew + " рублей. Годовой доход вырос на " + kristinaSalaryYear + " рублей");
+
+
+
+
 
 
 
